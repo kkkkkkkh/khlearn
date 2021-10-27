@@ -1,0 +1,15 @@
+Package: addd
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R:
+    person("Zhou", "Kaihe", email = "1074979256@qq.com", role = c("aut", "cre"))
+Description: LHD, Ordinary Kriging, 
+    Kriging model with Partial Least Square(KPLS).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
