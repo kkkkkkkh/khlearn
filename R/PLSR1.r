@@ -57,7 +57,7 @@ PLSR1 <- function(x,y){
     }
   }
   rmse <- rmse/5
-  or <- which(order(rmse)==1)
+  or <- which.min(rmse)
   ww <- matrix(nrow = k,ncol = or)
   pp <- matrix(nrow = k,ncol = or)
   rr <- vector(length = or)
