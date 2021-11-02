@@ -20,6 +20,7 @@ PLSR1 <- function(x,y){
   for (i in 1:5){
     a[i+1] <- i*pis
   }
+  a[6] <- length(y)
   k <- length(x[1,])
   rmse <- vector(length = k)
   rmse[is.na(rmse)] <- 0
